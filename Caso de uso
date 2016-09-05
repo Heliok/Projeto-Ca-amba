@@ -1,0 +1,38 @@
+FB04 – Fluxo básico (Manter anúncio)
+1.	O Internauta solicita a funcionalidade manter anúncio.
+2.	O Sistema apresenta as opções.  
+  [FA01 Incluir anúncio]
+  [FA02 Alterar anúncio]
+  [FA03 Excluir anúncio]
+3.	Fim de caso de uso   
+
+[FA01 Incluir anúncio]
+1.	No passo 02 do FB04 Fluxo Básicoo Internauta inclui um novo anúncio.   
+2.	O Sistema solicita os dados a serem preenchidos .
+3.	O Internauta informa os dados.         
+4.	O Sistema valida os dados e armazena as informações.         
+FE01 Dados Inválidos
+5.	O Sistema retorna ao passo 2 do FB04 Fluxo Básico 04.     
+
+
+  [FA02 Alterar anúncio]
+1.	No passo 02 do FB04 Fluxo Básico 04 o Internauta altera um anúncio. 
+2.	O Sistema apresenta os dados armazenados do anúncio para alteração.        
+3.	O Internauta preenche as informações.        
+4.	O Sistema armazena os dados e exibe uma mensagem.        
+5.	O Sistema retorna ao passo 2 doFB04 Fluxo Básico 04. 
+
+[FA03 Excluir anúncio]
+1.	No passo 02 do FB04 Fluxo Básico 04 o Internauta inclui um novo anúncio.    
+2.	O Sistema exclui os dados e apresenta uma mensagem 
+              [MSG04 Registro excluído com sucesso]
+
+3.	O Sistema retorna ao passo 2 do FB04 Fluxo Básico 04. 
+
+
+
+FE01 Dados Inválidos
+  No passo 4 do FB04 – Fluxo Básico 04 o usuário informa os dados inválidos.
+1.	O Sistema exibe uma mensagem.      
+[MSG04 – Dados inválidos.]
+O Sistema retorna ao passo 3 do Fluxo Básico. 
